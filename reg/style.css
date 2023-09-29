@@ -1,7 +1,8 @@
-body, h1 {
+ï»¿body, h1 {
     margin: 0;
     font-size: 100%;
     font-weight: normal;
+    min-height: 100%;
 }
 
 * {
@@ -13,7 +14,7 @@ body {
 }
 
 .header {
-    background-image: url(website-images/cinemaheroes.jpg);
+    background-image: url(reg-imgs/regg.jpg);
     height: 35vh;
     background-size: cover;
     background-position: center;
@@ -28,7 +29,7 @@ body {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
-    margin: auto;
+    margin: 5% auto 0 auto;
 }
 
 .overlay {
@@ -40,15 +41,13 @@ body {
 
 
 .content {
-    font-size: 0;
+    font-size:100%;
     width: 100%;
     margin: 0 auto 0 auto;
 }
 
 .card {
-    background-color: #d4d4d4;
     margin: auto;
-    border-radius: 10px;
     text-align: center;
     width: 75%;
     margin-bottom: 60px;
@@ -59,7 +58,8 @@ body {
 
 
 .card-image {
-    justify-items:center;
+    justify-items: center;
+
     @media (max-width: 750px) {
         width: 80%;
         height:85%;
@@ -71,11 +71,6 @@ body {
     }
 
     margin-bottom: 25px;
-}
-
-.headlink {
-    color: white;
-    text-decoration: none;
 }
 
 .card-text {
@@ -99,10 +94,15 @@ body {
 .footer-author {
     color: white;
     font-size: 24px;
-    margin: auto;
+    margin: 0;
 }
-/* ìåíþøêà */
+.headlink {
+    color: white;
+    text-decoration: none;
+}
+/* Ð¼ÐµÐ½ÑŽÑˆÐºÐ° */
 .dropbtn {
+    
     background-color: #3498DB;
     color: white;
     padding: 16px;
@@ -138,4 +138,59 @@ body {
 .show {
     display: block;
     bottom: 100%;
+}
+
+
+.registration-cssave {
+    padding: 50px 0;
+}
+
+    .registration-cssave form {
+        margin: 0 auto 0 auto;
+        width: 80%;
+        max-width: 800px;
+        
+        border-radius: 10px;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
+        background-color: #d4d4d4;
+    }
+
+        .registration-cssave form h3 {
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+    .registration-cssave .item {
+        border-radius: 10px;
+        margin-bottom: 25px;
+        padding: 10px 20px;
+    }
+
+    .registration-cssave .create-account {
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #3f93ff;
+        border: none;
+        color: white;
+        margin-top: 20px;
+    }
+
+@media (max-width: 576px) {
+    .registration-cssave form {
+        padding: 50px 20px;
+    }
+}
+
+html {
+ 
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center{
+    text-align:center;
+    color:black;
+
 }

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Авторизация</title>
+</head>
+<body>
+    <header class="header">
+        <div class=overlay>
+            <h1 class=header-title><a class="headlink" href="../website.html">Регистрация</a></h1>
+        </div>
+    </header>
+
+    <section class=content>
+        <!--<div class="card">
+            <a class="card-image-link" href="link-about-cinema/link-about-cinema.html"><img class="card-image" src="website-images/imgpreview.jpg"></a>
+            <h3 class=card-title>О Киноиндустрии</h3>
+            <p class=card-text>В этом разделе я немного расскажу о том, что такое индустрия кино, чем она увлекательна, и отвечу на вопрос о том, что означает кино для зрителя. </p>
+        </div>-->
+        
+        <div class="registration-cssave" style="margin-bottom:120px">
+            <form>
+                <h3 class="text-center" style="margin:0 auto 0 auto;">Форма входа</h3>
+                <div style="font-size=50%; text-align:center; margin:5% 0 5% 0;"> Пожалуйста, введите логин и пароль</div>
+                <div class="form-group">
+                    <input class="form-control item"  style="margin-left:37%" type="text" name="username" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" id="username" placeholder="Логин" required>                </div>
+                <div class="form-group">
+                    <input class="form-control item" style="margin-left:37%" type="password" name="Пароль" minlength="6" id="password" placeholder="Пароль" required>
+                </div>
+                <div class="form-group" style="padding-left:37%";>
+                    <button class="btn btn-primary btn-block create-account" style="margin-left:17px;" type="submit">Вход в аккаунт</button>
+                </div>
+            </form>
+    </div>
+
+
+    </section>
+
+    <script src="./script.js"></script>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"   >Меню сайта  </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="../website.html">Главная</a>
+            <a href="../cont/cont.html">Контакты</a>
+            <a href="reg.html">Авторизация</a>
+            <a href="../link-about-cinema/link-about-cinema.html">О киноиндустрии</a>
+            <a href="../podb/podb.html">Подборки</a>
+            <a href="../link80s/link80s.html">Персонажи 80-х</a>
+            <a href="../link90s/link90s.html">Персонажи 90-х</a>
+            <a href="../link00s/link00s.html">Персонажи 00-х</a>
+            <a href="../link10s/link10s.html">Персонажи 10-х</a>
+        </div>
+    </div>
+
+</body>
+</html>

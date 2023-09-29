@@ -1,4 +1,4 @@
-body, h1 {
+ï»¿body, h1 {
     margin: 0;
     font-size: 100%;
     font-weight: normal;
@@ -13,13 +13,17 @@ body {
 }
 
 .header {
-    background-image: url(website-images/cinemaheroes.jpg);
+    background-image: url(podb-imgs/podb2.png);
     height: 35vh;
     background-size: cover;
     background-position: center;
     text-align: center;
     margin-bottom: 2%;
     box-shadow: 0px 25px 20px rgba(0, 0, 0, 0.4);
+}
+.headlink {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -50,7 +54,7 @@ body {
     margin: auto;
     border-radius: 10px;
     text-align: center;
-    width: 75%;
+    width: 40%;
     margin-bottom: 60px;
     /*padding: 45px 45px 70px 45px;*/
     display: grid;
@@ -59,7 +63,8 @@ body {
 
 
 .card-image {
-    justify-items:center;
+    justify-items: center;
+
     @media (max-width: 750px) {
         width: 80%;
         height:85%;
@@ -73,16 +78,12 @@ body {
     margin-bottom: 25px;
 }
 
-.headlink {
-    color: white;
-    text-decoration: none;
-}
-
 .card-text {
     font-size: 24px;
 }
 
 .card-title {
+    text-align:center;
     font-size: 32px;
     font-weight: 500;
     padding-bottom: 25px;
@@ -101,7 +102,7 @@ body {
     font-size: 24px;
     margin: auto;
 }
-/* ìåíþøêà */
+/* Ð¼ÐµÐ½ÑŽÑˆÐºÐ° */
 .dropbtn {
     background-color: #3498DB;
     color: white;
