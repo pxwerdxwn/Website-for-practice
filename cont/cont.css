@@ -54,11 +54,20 @@ body {
     margin: auto;
     border-radius: 10px;
     text-align: center;
-    width: 40%;
+   
     margin-bottom: 60px;
     /*padding: 45px 45px 70px 45px;*/
     display: grid;
     /*box-shadow: 4px 4px 5px rgba(12, 10, 10, 0.4);*/
+    @media (max-width: 1250px) {
+
+        width:80%;
+    }
+
+    @media (min-width: 1251px) {
+
+        width: 40%;
+    }
 }
 
 

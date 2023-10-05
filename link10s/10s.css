@@ -74,6 +74,16 @@ body, h1{
     width: 70%;
     margin-left: 10%;
     margin-bottom: 25px;
+
+    @media (max-width: 900px) {
+
+        width:90%;
+    }
+
+    @media (min-width: 901px) {
+
+        width: 70%;
+    }
 }
 
   .cristine{

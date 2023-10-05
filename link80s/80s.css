@@ -71,9 +71,18 @@ body, h1{
   }
 
 .card-image {
-    width: 70%;
     margin-left: 10%;
     margin-bottom: 25px;
+
+    @media (max-width: 1000px) {
+
+        width:90%;
+    }
+
+    @media (min-width: 1001px) {
+
+        width: 70%;
+    }
 }
 
   .cristine{
